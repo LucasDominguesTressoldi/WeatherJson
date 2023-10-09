@@ -52,7 +52,8 @@
         echo "Feels Like: $feelsLike °C<br>";
         echo "Max°C: $tempMax °C<br>";
         echo "Min°C: $tempMin °C<br>";
-        echo "Humidity: $humidity °C<br>";
+        echo "Humidity: $humidity °C<br><br>";
+        var_dump($data);
       } else {
         echo "ERROR: API request failed.";
       }
