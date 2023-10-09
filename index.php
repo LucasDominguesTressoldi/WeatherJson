@@ -45,14 +45,14 @@
         $feelsLike = $response["main"]["feels_like"] - 273.5;
         $tempMax = $response["main"]["temp_max"] - 273.5;
         $tempMin = $response["main"]["temp_min"] - 273.5;
-        $humidity = $response["main"]["humidity"] - 273.5;
+        $humidity = $response["main"]["humidity"];
     
         echo "<br>Weather in $cityName $country | $description<br>";
         echo "Temperature: $temperature °C<br>";
         echo "Feels Like: $feelsLike °C<br>";
         echo "Max°C: $tempMax °C<br>";
         echo "Min°C: $tempMin °C<br>";
-        echo "Humidity: $humidity °C<br><br>";
+        echo "Humidity: $humidity<br><br>";
         var_dump($data);
       } else {
         echo "ERROR: API request failed.";
