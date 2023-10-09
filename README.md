@@ -19,4 +19,11 @@ Then, the information about the desired city will appear on the screen, along wi
 ⬇️ To run PHP you also need a server, to create a temporary local server I recommend XAMPP, download it from the link below:  
 🔗 https://www.apachefriends.org/
 
+🗝️ After that, just copy all the code from here, paste it into your editor or IDE and replace in:   
+```$link = "https://api.openweathermap.org/data/2.5/weather?q=$city&APPID=$apiKey";``` the *$apiKey value* for **your API key**
+
+🌐 Start your ***Apache** server on XAMPP* and search for **your http://localhost/dashboard/**. Change ***/Dashboard/*** to the name of **your *folder***
+
+*In this case is: **http://localhost/open-weather/public/***
+
 🎉 It's all done!
